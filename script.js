@@ -23,11 +23,10 @@ const collectEmployees = function name() {
         }
       }
     }
-     
-      
+          
     let employee = {
-      firstName: firstName,
-      lastName: lastName,
+      firstName: firstName[0].toUpperCase() + firstName.slice(1),
+      lastName: lastName[0].toUpperCase() + lastName.slice(1),
       salary: salary
     }
     employees.push(employee)
@@ -59,7 +58,7 @@ console.log("The average employee salary between our " + employeesArray.length +
 // Select a random employee.  // TODO: Select and display a random employee
 const getRandomEmployee = function(employeesArray) {
   let RandomEmployee = employeesArray[Math.floor(Math.random() * employeesArray.length)]
-  console.log("Congratulations to " + RandomEmployee.firstName + " " + RandomEmployee.lastName + ", our lucky drawing winner!");
+  console.log("Congratulations to " + RandomEmployee.firstName + " " + RandomEmployee.lastName + ", our random drawing winner!");
   //for (let i = 0; i < employeesArray.length; i++) {
    // console.log(employeesArray[i])}
   

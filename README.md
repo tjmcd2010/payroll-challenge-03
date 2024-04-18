@@ -18,7 +18,15 @@ THEN I am prompted to add a new employee
 WHEN I choose to cancel
 THEN my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
 
-##M Mock-up
+## Mock-up
+
+Hereare the original mock-ups that were provided to design the application from:
+
+![Animation shows input of employees to an employee payroll tracker.](./Assets/03-javascript-homework-demo.gif)
+
+![Shows employee information in the console of an employee payroll tracker.](./Assets/03-javascript-homework-console-demo.png)
+
+## Final Images and GIFs
 
 The following images show the web application's appearance and functionality:
 
@@ -26,5 +34,17 @@ The following images show the web application's appearance and functionality:
 ![Adding Employees to the application](images/Adding%20Employees.gif)
 ![Validating a number in the salary field](images/Validating%20NaN.gif)
 
+## Link to the deployed Application
 
+[title(https://tjmcd2010.github.io/payroll-challenge-03/)]
+
+## Steps taken to complete the project
+
+1. I studied the provided images and gif to find the intended result
+2. I reviewed the mini project and started off by creatiing the entermoredata variable
+3. I used the same concepts in the rock paper scissors project to create the window prompts
+4. I added an isNAN function to ensure that a number was entered for salary, or it defaulted to 0 if no data was entered
+5. I added syntax to capitalize the first letter of the first and last name if they were entered in any other format. 
+6. I updated the console log entries to match the one in the initial mock-up
+7. I took a screenshot and screen recordings of the finished work. 
 
