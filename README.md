@@ -22,9 +22,9 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 
 The following images show the web application's appearance and functionality:
 
-![Complete table with console](images/Employee%20Payroll%20Tracker%20Complete%20Console.png)
-![Adding Employees to the application](images/Adding%20Employees.gif)
-![Validating a number in the salary field](images/Validating%20NaN.gif)
+![Complete table with console](images/Complete-Image-With-Console.png)
+![Adding Employees to the application](images/Adding-Employees.gif)
+![Validating a number in the salary field](images/Validating-NaN.gif)
 
 ## Link to the deployed Application
 
