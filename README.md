@@ -22,9 +22,16 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 
 The following images show the web application's appearance and functionality:
 
-![Complete table with console](images/Complete-Image-With-Console.png)
-![Adding Employees to the application](images/Adding-Employees.gif)
-![Validating a number in the salary field](images/Validating-NaN.gif)
+### Final result of enter employee data, along with the console. 
+
+![Complete table with console](https://github.com/tjmcd2010/payroll-challenge-03/blob/main/Images/Complete-Image-With-Console.png?raw=true)
+
+### Demonstrating the process of adding employees.
+
+![Adding Employees to the application](https://github.com/tjmcd2010/payroll-challenge-03/blob/main/Images/Adding-Employees.gif?raw=true)
+
+### Demonstrating the  validation of a number in the salary field
+![Validating a number in the salary field](https://github.com/tjmcd2010/payroll-challenge-03/blob/main/Images/Validating-NaN.gif?raw=true)
 
 ## Link to the deployed Application
 
