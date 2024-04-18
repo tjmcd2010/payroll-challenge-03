@@ -3,6 +3,8 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data.  
 // TODO: Get user input to create and return an array of employee objects
+ //Uitilized details from this link for the isNAN function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+ //Followed the stesp taken in the rock, paper, scissors exercise for to start the initial loop
 
 let enterMoreData = true
 
@@ -21,7 +23,7 @@ const collectEmployees = function name() {
         }
       }
     }
-      
+     
       
     let employee = {
       firstName: firstName,
